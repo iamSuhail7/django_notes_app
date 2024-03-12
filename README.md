@@ -3,8 +3,9 @@ This is a simple notes app built with React and Django.
 
 ## Requirements
 1. Python 3.9
-2. Node.js
-3. React
+2. Aws
+3. Docker
+4. Jenkins
 
 ## Installation
 1. Clone the repository
@@ -22,9 +23,3 @@ docker build -t notes-app .
 docker run -d -p 8000:8000 notes-app:latest
 ```
 
-## Nginx
-
-Install Nginx reverse proxy to make this application available
-
-`sudo apt-get update`
-`sudo apt install nginx`
